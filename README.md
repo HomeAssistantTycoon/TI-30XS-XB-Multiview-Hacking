@@ -10,5 +10,7 @@ Welcome to the only place on the internet where people are still trying to hack 
 <details>
   <summary>Progress</summary>
 
-  Currently, we've discovered a buffer‑overflow‑like glitch with the help of [ndeineko](https://github.com/ndeineko), which can be used to expose and use hidden calculator functions such as **lcm(** and **gcd(**—normally inaccessible on the TI‑30XS MultiView.
+Currently, we’ve discovered a buffer‑overflow‑like glitch with the help of ndeineko￼, which can be used to expose and use hidden calculator functions such as lcm( and gcd(—normally inaccessible on the TI‑30XS MultiView. We’re now working to figure out if this same overflow can overwrite any RAM value that the firmware later interprets as a token ID, mode ID, or parser state, since those “pseudo‑pointers” are what the calculator uses to decide which internal routine to run. If any of those control‑flow values can be safely corrupted, it would open the door to deeper glitches and possibly the first real steps toward ACE.
+</details>
+<details><summary>Glitches</summary>
 </details>
