@@ -15,7 +15,7 @@ Currently, we’ve discovered a buffer‑overflow‑like glitch with the help of
 
 Info
 
-Currenty I am utilizing a glitch to explore characters by inputting their byte code. I found something strange when I input bytes 07 and 08 leading to an overflow error, and thus making very wierd and unintended characters to appear on the screen, including a complete sentence. This creates a very glitchy state, and it often leads to the calculator freezing. I am going to continue exploring this strange glitch and I will try to determine certain triggers in it. For anyone who wants to replicate this and study it, follow this guide provided by ndeineko: 
+Currenty I am utilizing a glitch to explore characters by inputting their byte code. I found something strange when I input bytes 07 and 08 leading to an overflow error, and thus making very wierd and unintended characters to appear on the screen, including a complete sentence. This creates a very glitchy state, and it often leads to the calculator freezing. I am going to continue exploring this strange glitch and I will try to determine certain triggers in it. For anyone who wants to replicate this and study it, follow this modified guide originally provided by ndeineko: 
 
 "Below is a procedure for accessing the overflow glitch. In the unlikely case that the constant value is already enabled (the letter K is displayed at the top of the screen), it must be disabled before executing the steps. This procedure seems reliable, but there might still be unforeseen side effects, so if the screen freezes, pressing on and clear simultaneously can always "reset" the calculator.
 
@@ -36,15 +36,14 @@ Press enter.
 Step 3 : clear the data editor
 
 Press data 4.
-Step 4 : extract the two functions from the constant value
+Step 4 : extract the error
 
 Press 2nd ÷ delete enter enter clear.
 Step 5 : clear the constant value
 
 Press 2nd ÷ 2nd ÷ clear enter.
-Step 6 : use the extracted functions
+Step 6 : See the wierd junk
 
-Press ▲ ▲ enter.
-Move the cursor and delete one of the two functions.
+Type in any math problem i.e. 1+1 and press enter and then scroll through the junk characters.
 Enjoy!"
 
