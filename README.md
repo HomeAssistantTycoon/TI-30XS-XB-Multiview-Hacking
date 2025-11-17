@@ -16,7 +16,8 @@ Currently, we’ve discovered a buffer‑overflow‑like glitch with the help of
 Info
 
 Currenty I am utilizing a glitch to explore characters by inputting their byte code. I found something strange when I input bytes 07 and 08 leading to an overflow error, and thus making very wierd and unintended characters to appear on the screen, including a complete sentence. This creates a very glitchy state, and it often leads to the calculator freezing. I am going to continue exploring this strange glitch and I will try to determine certain triggers in it. For anyone who wants to replicate this and study it, follow this guide provided by ndeineko: 
-"Below is a procedure for accessing both gcd( and lcm(. It should preserve the history of entries on the home screen, but the data editor entries will be lost and the constant value (accessed with 2nd ÷) will be overwritten. In the unlikely case that the constant value is already enabled (the letter K is displayed at the top of the screen), it must be disabled before executing the steps. This procedure seems reliable, but there might still be unforeseen side effects, so if the screen freezes, pressing on and clear simultaneously can always "reset" the calculator.
+
+"Below is a procedure for accessing the overflow glitch. In the unlikely case that the constant value is already enabled (the letter K is displayed at the top of the screen), it must be disabled before executing the steps. This procedure seems reliable, but there might still be unforeseen side effects, so if the screen freezes, pressing on and clear simultaneously can always "reset" the calculator.
 
 Step 1 : access column 3, row 61 of the data editor
 
